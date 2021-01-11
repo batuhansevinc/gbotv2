@@ -13,8 +13,8 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: About Us
+    text: We are Flutter and Firebase experts with a passion for cross-platform mobile and web apps. We are led by an ex-Google intern, currently recognized by Google as Google Developer Expert in Dart. We love the challenge of starting out with a rough idea, shaping it and developing a polished app. We also try to make the world a better place for app developers by actually contributing to the technologies that we use and love.
     actions:
       - title: Get Started!
         url: '#page-top'
