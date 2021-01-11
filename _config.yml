@@ -1,9 +1,8 @@
 # Site settings
-title: Your Title Here
+title: Gbot 
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/gbot/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2019 - Start Bootstrap
 lang: en_US
 
 # Build settings
