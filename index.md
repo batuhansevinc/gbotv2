@@ -15,10 +15,6 @@ sections:
     background_style: bg-primary
     title: About Us
     text: We are Flutter and Firebase experts with a passion for cross-platform mobile and web apps. We are led by an ex-Google intern, currently recognized by Google as Google Developer Expert in Dart. We love the challenge of starting out with a rough idea, shaping it and developing a polished app. We also try to make the world a better place for app developers by actually contributing to the technologies that we use and love.
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
 
   - type: services.html
     section_id: services
