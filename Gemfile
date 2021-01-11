@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-git_source(:github) {|gbotv2.git| "https://github.com/batuhansevinc/gbotv2.git" }
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "github-pages", "= 209"
 
