@@ -1,12 +1,11 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: Got an app Idea?
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    We are a Google Developer Expert and his team. Let's talk.
   action: # action button is optional
-    label: Find Out More
+    label: Learn More
     url: '#about'
 
 
