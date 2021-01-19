@@ -6,12 +6,12 @@ header:
 - title: About
   url: /gbotv2/#about
 - title: Services
-  url: /#services
+  url: /gbotv2/#services
 - title: Members
-  url: /#members
+  url: /gbotv2/#members
 - title: History
-  url: /#timeline
+  url: /gbotv2/#timeline
 - title: Contacts
-  url: /#contacts
+  url: /gbotv2/#contacts
 - title: Links
-  url: /links
+  url: /gbotv2/links
