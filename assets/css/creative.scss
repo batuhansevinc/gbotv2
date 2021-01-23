@@ -2408,11 +2408,11 @@ textarea.form-control {
       -ms-user-select: none;
           user-select: none;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 2;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2438,36 +2438,62 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
+.myButton {
+	box-shadow: 0px 0px 0px 0px #000000;
+	background-color:transparent;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #000000;
+}
+.myButton:hover {
+  background-color:transparent;
+  color:#FFF;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
-.btn-primary {
-  color: rgb(0, 0, 0);
-  background-color: #fdfdfd;
-  border-color: #ffffff;
+/*.btn-primary {
+  background-color: white;
+  color: black;
+  border: 5 solid #4CAF50;
 }
 .btn-primary:hover {
-  color: rgb(0, 0, 0);
-  background-color: #ffffffaf;
-  border-color: #ff0000;
-}
-.btn-primary:focus, .btn-primary.focus {
-  color: rgb(0, 0, 0);
-  background-color: #f2461600;
-  border-color: #07020100;
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
-}
-.btn-primary.disabled, .btn-primary:disabled {
-  color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.664);
   background-color: #ffffff;
   border-color: #ffffff;
+  border: 5 solid #4CAF50;
+}
+.btn-primary:focus, .btn-primary.focus {
+  color: rgba(255, 255, 255, 0);
+  background-color: #f2461600;
+  border-color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+  border: 5 solid #4CAF50;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  color: rgba(255, 255, 255, 0);
+  background-color: #ffffff00;
+  border-color: #ffffff;
+  border: 5 solid #4CAF50;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: rgb(0, 0, 0);
   background-color: #ffffff;
   border-color: #ffffff;
+  border: 5 solid #4CAF50;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
-}
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+  border: 5 solid #4CAF50;
+}*/
 
 .btn-secondary {
   color: #fff;
@@ -2900,14 +2926,14 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+  border-radius: 0;
 }
 
 .btn-block {
@@ -3396,7 +3422,7 @@ input[type=button].btn-block {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 0.25;
 }
 .input-group-text input[type=radio],
 .input-group-text input[type=checkbox] {

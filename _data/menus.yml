@@ -3,11 +3,13 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
+- title: Home
+  url: /#page-top
 - title: About
   url: /gbotv2/#about
 - title: Services
   url: /gbotv2/#services
-- title: Members
+- title: Team
   url: /gbotv2/#members
 - title: History
   url: /gbotv2/#timeline
