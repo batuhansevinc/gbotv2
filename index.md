@@ -17,8 +17,8 @@ sections:
     services:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
-        url: https://startbootstrap.com/
+        image: assets/img/services/servicep1.png
+        
       - title: Ready to Ship
         text: You can use this theme as is, or you can make changes!
         icon: fa-paper-plane
@@ -34,37 +34,14 @@ sections:
       - title: Other 2
         text: Some not-so long text here.
         icon: fa-heart
-        
+
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
     title: About Us
     text: We are Flutter and Firebase experts with a passion for cross-platform mobile and web apps. We are led by an ex-Google intern, currently recognized by Google as Google Developer Expert in Dart. We love the challenge of starting out with a rough idea, shaping it and developing a polished app. We also try to make the world a better place for app developers by actually contributing to the technologies that we use and love.
 
-  - type: services.html
-    section_id: services
-    #background_style: bg-info
-    title: At Your Service
-    services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: fa-heart
+
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
