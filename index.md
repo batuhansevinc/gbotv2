@@ -17,7 +17,7 @@ sections:
     services:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
-        image: assets/img/services/servicep1.png
+        image: assets/img/members/servicep1.png
         
       - title: Ready to Ship
         text: You can use this theme as is, or you can make changes!
