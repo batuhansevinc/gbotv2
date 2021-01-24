@@ -22,6 +22,7 @@
             <img src="{{service.image}}" alt="">
             
             {{ service.title }}</li> -->
+            {% include lazyload.html %}
         
           <div class="text-muted mb-0">
             {{ service.text | markdownify }}
@@ -31,6 +32,7 @@
           </div>
         </div>
       </div>
+      {% include lazyload.html %}
       {% endfor %}
     </div>
   </div>

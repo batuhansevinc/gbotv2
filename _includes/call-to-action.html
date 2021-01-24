@@ -9,6 +9,7 @@
         <div class="text-white-50 mb-4 ">{{ section.text | markdownify }}</div>
       </div>
     </div>
+    {% include lazyload.html %}
     {% include actions.html actions=section.actions %}
   </div>
 </section>
