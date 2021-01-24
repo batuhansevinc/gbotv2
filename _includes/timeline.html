@@ -1,33 +1,16 @@
 <section class="page-section {{ section.background_style }}" id="{{ section.section_id }}">
-  <div class="container">
-    <h2 class="text-center mt-0">{{ section.title }}</h2>
-    <p class="text-white-50">{{ section.text }}</p>
-    
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-          {% for action in section.actions %}
-          <li class="{% cycle 'timeline-normal', 'timeline-inverted' %}">
-            <div>
-            <img class="img-circle img-responsive timeline-image" src="{{ action.image }}" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>{{ action.title | markdownify }}</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-white-50">{{ action.text | markdownify }}</p>
-              </div>
-            </div>
-          </li>
-          {% endfor %}
-          <li class="timeline-inverted">
-            <div >
-              <img class="img-circle img-responsive timeline-image" src="{{ section.last_image }}" alt="">
-              </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+    <link href="/assets/js/creative.js" rel="stylesheet" />
+    <link href="/assets/js/creative.min.js" rel="stylesheet"/>
+
+<div class="slick-carousel">
+  <img src="assets/img/portfolio/fullsize/6.png" class="img-fluid mx-auto d-block" alt="img6">
+  <img src="assets/img/portfolio/fullsize/6.png" class="img-fluid mx-auto d-block" alt="img6">
+  <img src="assets/img/portfolio/fullsize/6.png" class="img-fluid mx-auto d-block" alt="img6">
+  <img src="assets/img/portfolio/fullsize/6.png" class="img-fluid mx-auto d-block" alt="img6">
+  <img src="assets/img/portfolio/fullsize/6.png" class="img-fluid mx-auto d-block" alt="img6">
+  <img src="assets/img/portfolio/fullsize/6.png" class="img-fluid mx-auto d-block" alt="img6">
+</div>
+			
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
 </section>
