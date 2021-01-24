@@ -6101,8 +6101,20 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+.chartjs-render-monitor {
+  animation: chartjs-render-animation 1ms;
+  animation-duration: 1ms;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: chartjs-render-animation;
+}
+
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #ff4f5a !important;
 
 }
 

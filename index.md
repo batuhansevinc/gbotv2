@@ -13,27 +13,19 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    #title: At Your Service
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        image: (/assets/img/members/servicep1.png){:class="img-responsive"}
+      - title: OPEN COMMUNICATION
+        text: We love to listen and share our opinions. Remote work becomes an advantage with tools such as Slack, Jira, Trello and Skype.
+        image: /assets/img/services/servicep1.jpg
         
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: fa-heart
+      - title: FULL STACK, FULL PIPELINE
+        text: "We are a one-stop company for full-cycle development: storyboards, prototypes, UI/UX design, frontend and backend development."
+        image: /assets/img/services/servicep2.jpg
+      - title: ON THE CUTTING EDGE
+        text: We embrace new technologies such as Flutter, Firebase and Hasura. Your app will be just like the million-dollar apps that we all love to use.
+        image: /assets/img/services/servicep3.jpg
+      
 
   - type: call-to-action.html
     section_id: about
@@ -70,10 +62,6 @@ sections:
       - title: Project 5
         text: This is a very short project description.
         icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
         url: '#'
 
   - type: aside.html
