@@ -45,23 +45,27 @@ sections:
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
+        icon: 1.png
         url: '#'
       - title: Project 2
         text: This is a very short project description.
-        icon: 2.jpg
+        icon: 2.png
         url: '#'
       - title: Project 3
         text: This is a very short project description.
-        icon: 3.jpg
+        icon: 3.png
         url: '#'
       - title: Project 4
         text: This is a very short project description.
-        icon: 4.jpg
+        icon: 4.png
         url: '#'
       - title: Project 5
         text: This is a very short project description.
-        icon: 5.jpg
+        icon: 5.png
+        url: '#'
+      - title: Project 6
+        text: This is a very short project description.
+        icon: 6.png
         url: '#'
 
   - type: aside.html

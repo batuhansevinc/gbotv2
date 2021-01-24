@@ -1,15 +1,7 @@
 <section id="{{ section.section_id }}" class="chartjs-render-monitor {{ section.background_style }}">
   <div class="container">
     <div class="row justify-content-center">
-      {% assign cols = section.actions.size %}
-      {% if cols > 4 %}
-        {% assign cols = 4 %}
-      {% endif %}
-
-      {% assign colsL = 12 | divided_by: cols %}
-      {% assign colsM = colsL | times: 2 %}
-
-      {% for actions in section.actions %}
+     
       
       <div class="col-lg-8 {{ section.text_style | default: 'text-center' }}"> 
         <h2 class="text-white mt-0 text-center">{{ section.title }}</h2>
